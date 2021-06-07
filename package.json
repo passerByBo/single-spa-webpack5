@@ -1,0 +1,16 @@
+{
+  "name": "single-spa-webpack5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "lerna init",
+    "build": "lerna run --parallel build",
+    "serve": "lerna run --parallel serve"
+  },
+  "author": "shixiaobo",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
